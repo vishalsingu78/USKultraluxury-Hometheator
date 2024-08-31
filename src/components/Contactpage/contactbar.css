@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+#ContactPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+}
+.custext{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline rgb(20, 170, 240);
+}
+.boradteam{
+    width: 100%;
+    display: flex;
+    padding-top: 120px;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+.imgboardp{
+    width: 450px;
+}
+.contactdetails{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    flex-direction: column;
+}
+.contactman{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* padding-top: 200px; */
+}
+.leftsalesman{
+    align-items:center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgba(104, 247, 168, 0.836); */
+}
+.salesman{
+    /* display: flex; */
+   width: 78%;
+   height: 190px;
+   margin-top: 20px;
+   outline: solid rgb(117, 208, 244);
+   border-radius: 30px;
+   /* overflow: hidden; */
+   display: flex;
+   flex-direction: row;
+   /* padding-top: 10px; */
+   background-color: rgb(100, 249, 210);
+}
+.detailslist{
+    /* background-color: beige; */
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+.guideuser{
+    font-weight: 500;
+    font-size: 20px;
+}
+.guideuser1{
+    font-weight: 500;
+    font-size: 30px;
+}
+.nameperson,.desig,.emailp,.callnum{
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+.picsales{
+    width: 160px;
+    display: flex;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 20px;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+}
+.rightaddress{
+    width: 50%;
+    /* background-color: rgb(71, 241, 119); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addresstexts{
+    width: 400px;
+    height: 100px;
+    padding-top: 10px;
+    /* background-color: antiquewhite; */
+}
+.texthead{
+    font-size: 18px;
+}
+.adddetail{
+    font-size: 15px;
+}
+.locationmap{
+    padding-top: 60px;
+    /* box-shadow: 5px 5px 7px black; */
+}
+.mailpng{
+    margin-left: -40px;
+    margin-right: 10px;
+    width: 30px;
+}
+.formgmailsubmit{
+    display: flex;
+    width: 600px;
+    height: 630px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px black;
+    flex-direction: column;
+    background-color:rgb(221,163,170);
+}
+.guideuser1{
+    color: rgb(27, 181, 243);
+    font-weight: 600;
+    /* text-decoration: underline  rgb(27, 181, 243); */
+    margin-top: -40px;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+.fomdivbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formdiv{
+   display: flex;
+}
+.namebox,.mailbox,.detailmsg{
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 15px; */
+}
+.namebox,.mailbox,.detailmsg{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+}
+.detailmsg{
+    height: 130px;
+    border-radius: 8px;
+}
+.btn-success{
+    margin-top: 30px;
+    width: 130px;
+}
+.footerdiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.develop{
+    font-family: "Oranienbaum", serif;
+    font-weight: 800;
+    font-size: 20px;
+    /* font-size: 30px; */
+}
+.developername{
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+    /* font-size: 30px; */
+    color: rgb(43, 121, 238);
+    font-family: "Oranienbaum", serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.devlopercont{
+    font-family: "Oranienbaum", serif;
+    font-weight: 800;
+}
+#duplicatedivcontact{
+    display: none;
+}
+.devddd{
+    font-family: "Oranienbaum", serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+#vishal{
+    margin-bottom: 10px;
+}
+@media (max-width:2000px) {
+    .formgmailsubmit{
+        width: 550px;
+    }
+    
+}
+@media (max-width:1355px) {
+    .imgboardp{
+        width: 350px;
+    }
+    .nameperson,.desig,.emailp,.callnum{
+        font-size: 15px;
+    }
+}
+@media (max-width:1200px) {
+    .formgmailsubmit{
+        width: 500px;
+    }
+}
+@media (max-width:1145px) {
+    .salesman{
+        width: 500px;
+    } 
+}
+@media (max-width:1070px) {
+    .boradteam{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imgboardp{
+        width: 450px;
+        margin-bottom: 10px;
+    }
+    #person1{
+        /* display: flex; */
+        margin-top: -100px;
+    }
+}
+@media (max-width:1010px) {
+    .formgmailsubmit{
+        width: 400px;
+    }
+    .salesman{
+        width: 400px;
+    }
+    .picsales{
+        width: 120px;
+        height: 150px;
+        margin-left: 0px;
+    }
+}
+@media (max-width:1000px) {
+    .picsales{
+        width: 120px;
+        height: 150px;
+    }
+}
+@media (max-width:910px) {
+    .mapbox{
+        width: 350px;
+    }    
+}
+@media (max-width:845px) {
+   #originaldiv{
+    display: none;
+   }
+   #duplicatedivcontact{
+    display: contents;
+   }
+   .leftsalesman{
+    height: 470px;
+    margin-bottom: 200px;
+   }
+   .formgmailsubmit{
+    height: 500px;
+   }
+   .divuser{
+    width: 400px;
+}
+}
+@media (max-width:764px) {
+    .leftsalesman{
+        margin-bottom: 200px;
+    }
+    .guideuser{
+        font-size: 18px;
+    }
+    .divuser{
+        width: 400px;
+    }
+}
+@media (max-width:687px) {
+    .guideuser{
+        font-size: 16px;
+    }
+    .divuser{
+        width: 400px;
+    }
+}
+@media (max-width:611px) {
+    .divuser{
+        width: 400px;
+    }
+    .guideuser{
+        font-size: 15px;
+    }
+}
+@media (max-width:573px) {
+    .divuser{
+        width: 400px;
+    }
+}
+@media (max-width:460px) {
+    .imgboardp{
+        width: 400px;
+    }
+}
+@media (max-width:415px) {
+    .imgboardp{
+        width: 300px;
+    }
+    .leftsalesman{
+        width: 450px;
+    }
+    .divuser{
+        width: 350px;
+    }
+    .salesman{
+        flex-direction: column;
+        width: 330px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .addresstexts{
+        width: 330px;
+        height: 160px;
+    }
+    .adddetail{
+        margin-bottom: 40px;
+    }
+    .mapdiv{
+        margin-bottom: 300px;
+    }
+    .formgmailsubmit{
+        margin-top: 260px;
+        width: 350px;
+    }
+    .formdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .namebox,.fomdivbox,.mailbox,.detailmsg{
+        width: 300px;
+    }
+    .leftsalesman{
+        width: 330px;
+    }
+}
+/* @media (max-width:) {
+    
+} */

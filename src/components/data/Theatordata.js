@@ -1,0 +1,30 @@
+export const theatordata=[
+    {
+        "image":"Albums/Project/a.jpg"
+    },
+    {
+        "image":"Albums/Project/7.jpg"
+    },
+    {
+        "image":"Albums/Project/1v.jpg"
+    },
+    {
+        "image":"Albums/Project/b.webp"
+    },
+    {
+        "image":"Albums/Project/10.jpg"
+    },
+    {
+        "image":"Albums/Project/8.jpg"
+    },
+    {
+        "image":"Albums/Project/5.jpg"
+    },
+    {
+        "image":"Albums/Project/11.jpg"
+    },
+    {
+        "image":"Albums/Project/4.jpg"
+    }
+
+]

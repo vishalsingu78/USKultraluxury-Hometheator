@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Tint&display=swap');
+
+.containerhome{
+    /* display: flex; */
+    width: 100%;
+    height: 100vh;
+}
+.mainpageimage,.homeimg1{
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.wishtag{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 300px; */
+    /* font-weight: bold; */
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -380px;
+    align-content: center;
+    color: rgb(247, 249, 246);
+    text-shadow: 7px 2px 1px black;
+}
+.textfloat{
+    font-size: 35px;
+}
+.nred{
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    color: red;
+    text-shadow: 7px 2px 1px black;
+}
+.containernumber{
+    display: flex;
+    margin-top: 70px;
+    gap: 2rem;
+    margin-left: 70px;
+    /* background-color: rgba(240, 237, 237, 0.5); */
+}
+.divprojectscount{
+    /* background-color: rgba(240, 237, 237, 0.5); */
+    border-radius: 20px;
+    /* height: 120px; */
+    display: inline;
+}
+.numberp{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 10);
+}
+.plusesign{
+    top: -20px;
+    font-size: 40px;
+    /* width: 30px; */
+    font-weight: bold;
+    color: rgb(242, 132, 7);
+}
+.textname1{
+    font-weight: bold;
+    text-shadow: 2px 2px 1px black;
+}
+.namedivproj{
+    display: flex;
+    color: white;
+}
+@media (max-width:800px) {
+    .numberp{
+        font-size: 30px;
+    }
+}
+@media (max-width:540px) {
+    .containernumber{
+        gap: 1rem;
+    }
+    .namedivproj{
+        font-size: 15px;
+    }
+}
+@media (max-width:450px) {
+    .numberp{
+        font-size: 25px;
+    }
+    .containernumber{
+        gap: 0.4rem;
+    }
+    .a1stdiv{
+        width: 100px;
+    }
+    .namedivproj{
+        font-size: 15px;
+    }
+    .a3rddiv{
+        margin-left: 10px;
+    }
+}
+@media (max-width:450px) {
+    .containernumber {
+        margin-left: 10px;
+    }
+    .a3rddiv{
+        margin-left: 10px;
+    }
+}

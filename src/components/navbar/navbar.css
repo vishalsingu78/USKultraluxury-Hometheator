@@ -1,0 +1,229 @@
+.h-navbar{
+  margin: 15px;
+  margin-top: 5px;
+  /* width: 98%; */
+  height: 65px;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(10px); 
+  background-color: rgb(255, 255, 255,0.5);
+  box-shadow: 3px 3px 5px black;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.h-container{
+  height: 70px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.h-menu{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.btntag{
+  color:rgb(1, 1, 1);
+  text-shadow:2px 2px 3px rgb(233, 231, 231);
+  font-weight: 730;
+  text-decoration-line: none;
+}
+.btntag:hover{
+  /* border-radius: 15px; */
+  /* background-color: red; */
+  color: red;
+  text-decoration-line: underline;
+}
+.contacttag{
+  margin-right: 40px;
+}
+@media (max-width:2000px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 1350px;
+  display: flex;
+  align-items: center;
+}
+}
+@media (max-width: 2560px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 2000px;
+  display: flex;
+  align-items: center;
+}
+}
+@media (max-width: 2000px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 1600px;
+  display: flex;
+  align-items: center;
+}
+}
+@media (max-width: 1600px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 1353px;
+  display: flex;
+  align-items: center;
+}
+}
+/* 1352 screen */
+@media (max-width: 1353px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+}
+@media (max-width: 1040px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 915px;
+  display: flex;
+  align-items: center;
+}
+  .btntag {
+      font-size: 15px;
+      height: 36px;
+    }
+    .h-menu{
+      width: 500px;
+      gap: 0.5rem;
+    }
+}
+@media (max-width: 915px) {
+  .navdiv{
+      display: flex;
+      justify-content: center;
+    }
+    .h-navbar{
+      width: 800px;
+      display: flex;
+      align-items: center;
+    }
+    .logoimg{
+      width: 100px;
+    }
+    .btntag {
+      font-size: 15px;
+      height: 36px;
+    }
+    .h-menu{
+      gap: 0.5rem;
+    }
+}
+@media (max-width: 810px) {
+.navdiv{
+  display: flex;
+  justify-content: center;
+}
+.h-navbar{
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoimg{
+  width: 100px;
+  margin-left: -20px;
+}
+.btntag {
+  font-size: 15px;
+  height: 36px;
+}
+.h-menu{
+  /* margin-left: -5px; */
+  gap: 0.3rem;
+}
+.contactbtn{
+  width: 100px;
+}
+}
+@media (max-width: 710px) {
+.h-navbar{
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logoimg{
+  width: 100px;
+  margin-top: -30px;
+  margin-left: 0px;
+}
+.btntag {
+  font-size: 15px;
+  height: 36px;
+}
+.h-menu{
+  margin-top: 35px;
+  margin-left: -115px;
+  gap: 0.5rem;
+}
+.contactbtn{
+  width: 100px;
+  margin-top: -75px;
+  margin-left: 280px;
+}
+}
+@media (max-width: 510px) {
+.h-navbar{
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logoimg{
+  width: 100px;
+  margin-top: -30px;
+  margin-left: 0px;
+}
+.btntag {
+  font-size: 10px;
+  height: 36px;
+}
+.h-menu{
+  margin-top: 35px;
+  margin-left: -195px;
+  gap: 0.5rem;
+}
+.contactbtn{
+  width: 100px;
+  margin-top: -75px;
+  margin-left: 80px;
+}
+}

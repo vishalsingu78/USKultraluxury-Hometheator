@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin: 0%;
+    padding: 0%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    background-position: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @media (max-width: 1245px) {
+    .navdiv{
+      display: flex;
+      justify-content: center;
+    }
+    .imagebox{
+      height: 450px;
+    }
+    .mainpage2home{
+      width: 100%;
+    }
+    .h-navbar{
+      width: 1000px;
+      display: flex;
+      align-items: center;
+    }
   }
-}
+  
+  @media (max-width: 1200px) {
+    .mainpage2{
+      display: flex;
+    }
+    .namebrand{
+      display: flex;
+      align-items: center;
+      width: 1000px;
+    }
+    .prosection{
+      width: 1000px;
+    }
+    .imgbox{
+      flex-direction: row;
+      width: 100px;
+    }
+  }
+  @media (max-width: 1040px) {
+    .h-navbar{
+      width: 900px;
+    }
+    .btntag {
+      font-size: 15px;
+      height: 36px;
+    }
+    .h-menu{
+      width: 500px;
+      gap: 0.5rem;
+    }
+  }
+  

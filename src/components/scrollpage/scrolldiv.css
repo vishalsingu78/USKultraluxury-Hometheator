@@ -1,0 +1,127 @@
+.scrolldiv{
+    width: 95%;
+    margin: auto;
+    /* background-color: aqua; */
+    /* margin-top: -160PX; */
+}
+.headingdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200PX;
+}
+.textheaddiv{
+    font-family: "Oranienbaum", serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.innerdiv{
+    background-color: white;
+    height: 30px;
+    color: black;
+}
+.containerin1{
+    margin-top: 20px;
+}
+.imgindiv{
+    /* height: 56px; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1;
+    /* padding: 4px; */
+}
+.imgboxdiv{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgb(109, 109, 109);
+}
+.containerin2,.containerin3{
+    display: none;
+}
+@media (max-width: 1280px) {
+    .textheaddiv{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .imgboxdiv{
+        width: 350px;
+        height: 280px;
+      }
+}
+ @media (max-width: 1245px) {
+    .imgboxdiv{
+        width: 350px;
+        height: 300px;
+      }
+}
+@media (max-width: 1130px) {
+    .textheaddiv{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .containerin1{
+        display: none;
+    }
+    .containerin2{
+        display: contents;
+    }
+}
+@media (max-width: 930px) {
+    .textheaddiv{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 850px) {
+    .textheaddiv{
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 750px) {
+    .containerin2{
+        display: none;
+    }
+    .containerin3{
+        display: contents;
+    }
+    .scrolldiv{
+        width: 400px;
+    }
+}
+@media (max-width: 670px) {
+    .textheaddiv{
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .containerin2{
+        display: none;
+    }
+    .containerin3{
+        display: contents;
+    }
+    .scrolldiv{
+        width: 400px;
+    }
+}
+@media (max-width: 670px) {
+    .textheaddiv{
+        margin-top: 120px;
+    }
+}
+@media (max-width: 445px) {
+    .scrolldiv{
+        width: 300px;
+    }
+    .imgboxdiv{
+        width: 280px;
+        height: 250px;
+      }
+}
+@media (max-width: 360px) {
+    .textheaddiv{
+        font-size: 27px;
+    }
+}
